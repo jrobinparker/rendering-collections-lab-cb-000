@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 <%= render(@orders) || "No Orders" %>
+=======
+<h2>Open Orders</h2>
+<table>
+  <tr>
+    <th>Order Id</th>
+    <th>Product
+    <th>Price
+    <th>Customer</th>  
+  </tr>
+  <%= render partial: "orders/order",  locals: {order: @order} %>
+</table>
+>>>>>>> 76fe4938af4a11f8fb08cf435a1f25bffd7bca02
